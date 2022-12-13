@@ -1,0 +1,19 @@
+1670393971126	geckodriver	INFO	Listening on 127.0.0.1:34399
+1670393971135	webdriver::server	WARN	Rejected request with Host header localhost:34399, allowed values are []
+1670394010320	geckodriver	INFO	Listening on 127.0.0.1:42481
+1670394010335	webdriver::server	WARN	Rejected request with Host header localhost:42481, allowed values are []
+1670394081709	geckodriver	INFO	Listening on 127.0.0.1:42443
+1670394081722	webdriver::server	WARN	Rejected request with Host header localhost:42443, allowed values are []
+1670394375873	geckodriver	INFO	Listening on 127.0.0.1:49073
+1670394375887	webdriver::server	WARN	Rejected request with Host header localhost:49073, allowed values are []
+1670394450764	geckodriver	INFO	Listening on 127.0.0.1:47033
+1670394450796	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "54515" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileAXSS0e"
+*** You are running in headless mode.
+1670394451065	Marionette	INFO	Marionette enabled
+1670394451067	Marionette	INFO	Listening on port 38863
+Read port: 38863
+WebDriver BiDi listening on ws://127.0.0.1:54515
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAXSS0e/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54515/devtools/browser/e128a118-8a3f-4562-897e-b1fffff37fe3
+1670394452442	Marionette	INFO	Stopped listening on port 38863

@@ -1,0 +1,66 @@
+<pre id="vimCodeElement"><code> 1 import pprint
+ 2 
+ 3 pp = pprint.PrettyPrinter(depth=6)
+ 4 
+ 5 f = open(&quot;input.txt&quot;)
+ 6 
+ 7 filesystem = {}
+ 8 
+ 9 def parsedir(directory):
+10     size = 0
+11     while True:
+12         line = f.readline().strip()
+13         print(line)
+14         if line == &quot;&quot;:
+15             return directory
+16 
+17         #go back if dir = .., else recursively make folder
+18         elif line[0:4] == &quot;$ cd&quot;:
+19             dirname = line[4:].strip()
+20             if dirname == &quot;..&quot;:
+21                 return directory
+22             else:
+23                 directory[dirname] = parsedir({})
+24                 #return directory
+25 
+26         elif line[0:5] == &quot;$ ls&quot;:
+27             pass
+28         #add to directory
+29         elif line[0:3] == &quot;dir&quot;:
+30             pass
+31         else:
+32             files = line.split(&quot; &quot;)
+33             #directory[files[1]] = files[0]
+34             size += int(files[0])
+35             directory[&#39;size&#39;] = size
+36 
+37 
+38 parsedir(filesystem)
+39 
+40 pp.pprint(filesystem)
+41 
+42 anspart1 = 0
+43 sizeslist = []
+44 def dirsize(directory):
+45     global anspart1
+46     global sizeslist
+47     size = 0
+48     for item in directory.values():
+49         if type(item) == dict:
+50             size += dirsize(item)
+51         else:
+52             size+= item
+53     if size &lt; 100000:
+54         anspart1 += size
+55     sizeslist.append(size)
+56     return size
+57 totalsize = dirsize(filesystem)
+58 freespace = 70000000 - totalsize
+59 deletefile =30000000 - freespace
+60 
+61 print(anspart1)
+62 for item in sorted(sizeslist):
+63     if item &gt; deletefile:
+64         print(item)
+65         break
+66 </code></pre>

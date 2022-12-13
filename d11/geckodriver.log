@@ -1,0 +1,11 @@
+1670743002464	geckodriver	INFO	Listening on 127.0.0.1:55107
+1670743003004	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "38933" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileM5OQZ3"
+*** You are running in headless mode.
+1670743003222	Marionette	INFO	Marionette enabled
+1670743003224	Marionette	INFO	Listening on port 36065
+WebDriver BiDi listening on ws://127.0.0.1:38933
+Read port: 36065
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileM5OQZ3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:38933/devtools/browser/1f47c167-2cab-4957-9f36-7ba1ea452210
+1670743004447	Marionette	INFO	Stopped listening on port 36065
