@@ -1,0 +1,761 @@
+{(7, 2): False, (5, 3): False, (6, 3): False, (7, 3): False, (9, 3): False, (3, 4): False, (7, 4): False, (9, 4): False, (4, 5): False, (8, 5): False, (9, 5): False, (3, 6): False, (5, 6): False, (6, 6): False, (7, 6): False, (3, 7): False, (4, 7): False, (6, 7): False, (8, 7): False, (9, 7): False, (4, 8): False, (7, 8): False}
+..............
+..............
+.......#......
+.....###.#....
+...#...#.#....
+....#...##....
+...#.###......
+...##.#.##....
+....#..#......
+..............
+..............
+..............
+looking at elf (7, 2)
+wants to move!
+[True, True, False, False]
+N
+looking at elf (5, 3)
+wants to move!
+[True, False, True, True]
+N
+looking at elf (6, 3)
+wants to move!
+[False, False, False, False]
+looking at elf (7, 3)
+wants to move!
+[False, True, False, False]
+E
+looking at elf (9, 3)
+wants to move!
+[True, True, False, True]
+N
+looking at elf (3, 4)
+wants to move!
+[True, False, False, True]
+N
+looking at elf (7, 4)
+wants to move!
+[False, False, False, False]
+looking at elf (9, 4)
+wants to move!
+[False, True, False, False]
+E
+looking at elf (4, 5)
+wants to move!
+[False, False, False, False]
+looking at elf (8, 5)
+wants to move!
+[False, False, False, False]
+looking at elf (9, 5)
+wants to move!
+[False, True, True, False]
+S
+looking at elf (3, 6)
+wants to move!
+[False, False, False, True]
+W
+looking at elf (5, 6)
+wants to move!
+[False, False, False, False]
+looking at elf (6, 6)
+wants to move!
+[True, False, False, False]
+N
+looking at elf (7, 6)
+wants to move!
+[False, False, False, False]
+looking at elf (3, 7)
+wants to move!
+[False, False, False, True]
+W
+looking at elf (4, 7)
+wants to move!
+[False, False, False, False]
+looking at elf (6, 7)
+wants to move!
+[False, False, False, False]
+looking at elf (8, 7)
+wants to move!
+[False, False, False, False]
+looking at elf (9, 7)
+wants to move!
+[True, True, True, False]
+N
+looking at elf (4, 8)
+wants to move!
+[False, True, True, False]
+S
+looking at elf (7, 8)
+wants to move!
+[False, False, True, False]
+S
+[2, 3, 1, 0]
+{(6, 3): False, (7, 4): False, (4, 5): False, (8, 5): False, (9, 5): False, (5, 6): False, (7, 6): False, (4, 7): False, (6, 7): False, (8, 7): False, (9, 7): False, (7, 1): False, (5, 2): False, (8, 3): False, (9, 2): False, (3, 3): False, (10, 4): False, (2, 6): False, (6, 5): False, (2, 7): False, (4, 9): False, (7, 9): False}
+..............
+.......#......
+.....#...#....
+...#..#.#.....
+.......#..#...
+....#.#.##....
+..#..#.#......
+..#.#.#.##....
+..............
+....#..#......
+..............
+..............
+looking at elf (6, 3)
+wants to move!
+[False, False, False, False]
+looking at elf (7, 4)
+wants to move!
+[False, False, False, False]
+looking at elf (4, 5)
+wants to move!
+[True, False, False, True]
+W
+looking at elf (8, 5)
+wants to move!
+[False, False, False, False]
+looking at elf (9, 5)
+wants to move!
+[False, False, True, False]
+S
+looking at elf (5, 6)
+wants to move!
+[False, False, False, False]
+looking at elf (7, 6)
+wants to move!
+[False, False, False, False]
+looking at elf (4, 7)
+wants to move!
+[False, False, True, True]
+S
+looking at elf (6, 7)
+wants to move!
+[False, False, True, False]
+S
+looking at elf (8, 7)
+wants to move!
+[False, False, True, False]
+S
+looking at elf (9, 7)
+wants to move!
+[True, True, True, False]
+S
+looking at elf (7, 1)
+looking at elf (5, 2)
+wants to move!
+[True, False, False, True]
+W
+looking at elf (8, 3)
+wants to move!
+[False, False, False, False]
+looking at elf (9, 2)
+wants to move!
+[True, True, False, False]
+E
+looking at elf (3, 3)
+looking at elf (10, 4)
+wants to move!
+[True, True, False, False]
+E
+looking at elf (2, 6)
+wants to move!
+[True, True, False, True]
+W
+looking at elf (6, 5)
+wants to move!
+[False, False, False, False]
+looking at elf (2, 7)
+wants to move!
+[False, True, True, True]
+S
+looking at elf (4, 9)
+looking at elf (7, 9)
+[3, 1, 0, 2]
+{(6, 3): False, (7, 4): False, (8, 5): False, (5, 6): False, (7, 6): False, (7, 1): False, (8, 3): False, (3, 3): False, (6, 5): False, (4, 9): False, (7, 9): False, (3, 5): False, (9, 6): False, (4, 8): False, (6, 8): False, (8, 8): False, (9, 8): False, (4, 2): False, (10, 2): False, (11, 4): False, (1, 6): False, (2, 8): False}
+..............
+.......#......
+....#.....#...
+...#..#.#.....
+.......#...#..
+...#..#.#.....
+.#...#.#.#....
+..............
+..#.#.#.##....
+....#..#......
+..............
+..............
+looking at elf (6, 3)
+wants to move!
+[True, False, False, True]
+W
+looking at elf (7, 4)
+wants to move!
+[False, False, False, False]
+looking at elf (8, 5)
+wants to move!
+[False, False, False, False]
+looking at elf (5, 6)
+wants to move!
+[False, False, True, True]
+W
+looking at elf (7, 6)
+wants to move!
+[False, False, True, False]
+S
+looking at elf (7, 1)
+looking at elf (8, 3)
+wants to move!
+[True, True, False, False]
+E
+looking at elf (3, 3)
+wants to move!
+[False, False, True, True]
+W
+looking at elf (6, 5)
+wants to move!
+[False, False, False, False]
+looking at elf (4, 9)
+wants to move!
+[False, True, True, True]
+W
+looking at elf (7, 9)
+wants to move!
+[False, False, True, False]
+S
+looking at elf (3, 5)
+looking at elf (9, 6)
+wants to move!
+[False, True, True, False]
+E
+looking at elf (4, 8)
+wants to move!
+[True, True, False, True]
+W
+looking at elf (6, 8)
+wants to move!
+[True, False, False, True]
+W
+looking at elf (8, 8)
+wants to move!
+[True, False, False, False]
+N
+looking at elf (9, 8)
+wants to move!
+[True, True, True, False]
+E
+looking at elf (4, 2)
+wants to move!
+[True, True, False, False]
+E
+looking at elf (10, 2)
+looking at elf (11, 4)
+looking at elf (1, 6)
+looking at elf (2, 8)
+[1, 0, 2, 3]
+{(7, 4): False, (8, 5): False, (7, 1): False, (6, 5): False, (3, 5): False, (10, 2): False, (11, 4): False, (1, 6): False, (2, 8): False, (5, 3): False, (4, 6): False, (7, 7): False, (9, 3): False, (2, 3): False, (3, 9): False, (7, 10): False, (10, 6): False, (3, 8): False, (5, 8): False, (8, 7): False, (10, 8): False, (5, 2): False}
+..............
+.......#......
+.....#....#...
+..#..#...#....
+.......#...#..
+...#..#.#.....
+.#..#.....#...
+.......##.....
+..##.#....#...
+...#..........
+.......#......
+..............
+looking at elf (7, 4)
+wants to move!
+[True, False, False, False]
+N
+looking at elf (8, 5)
+wants to move!
+[False, True, True, False]
+E
+looking at elf (7, 1)
+looking at elf (6, 5)
+wants to move!
+[False, False, True, True]
+S
+looking at elf (3, 5)
+wants to move!
+[True, False, False, True]
+N
+looking at elf (10, 2)
+wants to move!
+[True, True, False, False]
+E
+looking at elf (11, 4)
+looking at elf (1, 6)
+looking at elf (2, 8)
+wants to move!
+[True, False, False, True]
+N
+looking at elf (5, 3)
+wants to move!
+[False, True, True, True]
+E
+looking at elf (4, 6)
+wants to move!
+[False, True, True, False]
+E
+looking at elf (7, 7)
+wants to move!
+[True, False, True, True]
+N
+looking at elf (9, 3)
+wants to move!
+[False, False, True, True]
+S
+looking at elf (2, 3)
+looking at elf (3, 9)
+wants to move!
+[False, True, True, False]
+E
+looking at elf (7, 10)
+looking at elf (10, 6)
+looking at elf (3, 8)
+wants to move!
+[True, True, False, False]
+E
+looking at elf (5, 8)
+looking at elf (8, 7)
+wants to move!
+[True, True, True, False]
+E
+looking at elf (10, 8)
+looking at elf (5, 2)
+wants to move!
+[True, True, False, True]
+E
+[0, 2, 3, 1]
+{(7, 1): False, (11, 4): False, (1, 6): False, (2, 3): False, (7, 10): False, (10, 6): False, (5, 8): False, (10, 8): False, (7, 3): False, (9, 5): False, (6, 6): False, (3, 4): False, (11, 2): False, (2, 7): False, (6, 3): False, (5, 6): False, (7, 6): False, (9, 4): False, (4, 9): False, (4, 8): False, (9, 7): False, (6, 2): False}
+..............
+.......#......
+......#....#..
+..#...##......
+...#.....#.#..
+.........#....
+.#...###..#...
+..#......#....
+....##....#...
+....#.........
+.......#......
+..............
+looking at elf (7, 1)
+wants to move!
+[True, True, False, False]
+N
+looking at elf (11, 4)
+looking at elf (1, 6)
+wants to move!
+[True, False, False, True]
+N
+looking at elf (2, 3)
+wants to move!
+[True, False, False, True]
+N
+looking at elf (7, 10)
+looking at elf (10, 6)
+wants to move!
+[False, True, False, False]
+E
+looking at elf (5, 8)
+wants to move!
+[True, True, False, False]
+N
+looking at elf (10, 8)
+wants to move!
+[False, True, True, False]
+S
+looking at elf (7, 3)
+wants to move!
+[False, True, True, False]
+S
+looking at elf (9, 5)
+wants to move!
+[False, False, False, True]
+W
+looking at elf (6, 6)
+wants to move!
+[True, False, True, False]
+N
+looking at elf (3, 4)
+wants to move!
+[False, True, True, False]
+S
+looking at elf (11, 2)
+looking at elf (2, 7)
+wants to move!
+[False, True, True, False]
+S
+looking at elf (6, 3)
+wants to move!
+[False, False, True, True]
+S
+looking at elf (5, 6)
+wants to move!
+[True, False, True, True]
+N
+looking at elf (7, 6)
+wants to move!
+[True, True, True, False]
+N
+looking at elf (9, 4)
+wants to move!
+[True, True, False, True]
+N
+looking at elf (4, 9)
+wants to move!
+[False, False, True, True]
+S
+looking at elf (4, 8)
+wants to move!
+[True, False, False, True]
+N
+looking at elf (9, 7)
+wants to move!
+[False, False, False, True]
+W
+looking at elf (6, 2)
+wants to move!
+[False, False, False, True]
+W
+[2, 3, 1, 0]
+{(11, 4): False, (7, 10): False, (11, 2): False, (7, 0): False, (1, 5): False, (2, 2): False, (11, 6): False, (5, 7): False, (10, 9): False, (7, 4): False, (8, 5): False, (6, 5): False, (3, 5): False, (2, 8): False, (6, 4): False, (5, 5): False, (7, 5): False, (9, 3): False, (4, 10): False, (4, 7): False, (8, 7): False, (5, 2): False}
+.......#......
+..............
+..#..#.....#..
+.........#....
+......##...#..
+.#.#.####.....
+...........#..
+....##..#.....
+..#...........
+..........#...
+....#..#......
+..............
+looking at elf (11, 4)
+looking at elf (7, 10)
+looking at elf (11, 2)
+looking at elf (7, 0)
+looking at elf (1, 5)
+looking at elf (2, 2)
+looking at elf (11, 6)
+looking at elf (5, 7)
+wants to move!
+[True, True, True, False]
+S
+looking at elf (10, 9)
+looking at elf (7, 4)
+wants to move!
+[True, False, False, False]
+N
+looking at elf (8, 5)
+wants to move!
+[False, True, True, False]
+S
+looking at elf (6, 5)
+wants to move!
+[False, False, True, False]
+S
+looking at elf (3, 5)
+looking at elf (2, 8)
+looking at elf (6, 4)
+wants to move!
+[True, False, False, False]
+N
+looking at elf (5, 5)
+wants to move!
+[False, False, True, True]
+S
+looking at elf (7, 5)
+wants to move!
+[False, False, True, False]
+S
+looking at elf (9, 3)
+looking at elf (4, 10)
+looking at elf (4, 7)
+wants to move!
+[True, False, True, True]
+S
+looking at elf (8, 7)
+looking at elf (5, 2)
+[3, 1, 0, 2]
+{(11, 4): False, (7, 10): False, (11, 2): False, (7, 0): False, (1, 5): False, (2, 2): False, (11, 6): False, (10, 9): False, (3, 5): False, (2, 8): False, (9, 3): False, (4, 10): False, (8, 7): False, (5, 2): False, (5, 8): False, (7, 3): False, (8, 6): False, (6, 6): False, (6, 3): False, (5, 6): False, (7, 6): False, (4, 8): False}
+.......#......
+..............
+..#..#.....#..
+......##.#....
+...........#..
+.#.#..........
+.....####..#..
+........#.....
+..#.##........
+..........#...
+....#..#......
+..............
+looking at elf (11, 4)
+looking at elf (7, 10)
+looking at elf (11, 2)
+looking at elf (7, 0)
+looking at elf (1, 5)
+looking at elf (2, 2)
+looking at elf (11, 6)
+looking at elf (10, 9)
+looking at elf (3, 5)
+looking at elf (2, 8)
+looking at elf (9, 3)
+looking at elf (4, 10)
+looking at elf (8, 7)
+wants to move!
+[False, True, True, False]
+E
+looking at elf (5, 2)
+wants to move!
+[True, False, False, True]
+W
+looking at elf (5, 8)
+wants to move!
+[True, True, True, False]
+E
+looking at elf (7, 3)
+wants to move!
+[True, True, True, False]
+E
+looking at elf (8, 6)
+wants to move!
+[True, True, False, False]
+E
+looking at elf (6, 6)
+wants to move!
+[True, False, True, False]
+N
+looking at elf (6, 3)
+wants to move!
+[False, False, True, False]
+S
+looking at elf (5, 6)
+wants to move!
+[True, False, True, True]
+W
+looking at elf (7, 6)
+wants to move!
+[True, False, False, False]
+N
+looking at elf (4, 8)
+wants to move!
+[True, False, True, True]
+W
+[1, 0, 2, 3]
+{(11, 4): False, (7, 10): False, (11, 2): False, (7, 0): False, (1, 5): False, (2, 2): False, (11, 6): False, (10, 9): False, (3, 5): False, (2, 8): False, (9, 3): False, (4, 10): False, (9, 7): False, (4, 2): False, (6, 8): False, (8, 3): False, (9, 6): False, (6, 5): False, (6, 4): False, (4, 6): False, (7, 5): False, (3, 8): False}
+.......#......
+..............
+..#.#......#..
+........##....
+......#....#..
+.#.#..##......
+....#....#.#..
+.........#....
+..##..#.......
+..........#...
+....#..#......
+..............
+looking at elf (11, 4)
+looking at elf (7, 10)
+looking at elf (11, 2)
+looking at elf (7, 0)
+looking at elf (1, 5)
+looking at elf (2, 2)
+looking at elf (11, 6)
+looking at elf (10, 9)
+looking at elf (3, 5)
+wants to move!
+[True, False, False, True]
+N
+looking at elf (2, 8)
+wants to move!
+[True, False, True, True]
+N
+looking at elf (9, 3)
+wants to move!
+[True, True, True, False]
+E
+looking at elf (4, 10)
+looking at elf (9, 7)
+wants to move!
+[False, True, True, True]
+E
+looking at elf (4, 2)
+looking at elf (6, 8)
+looking at elf (8, 3)
+wants to move!
+[True, False, True, True]
+N
+looking at elf (9, 6)
+wants to move!
+[True, True, False, True]
+E
+looking at elf (6, 5)
+wants to move!
+[False, False, True, True]
+S
+looking at elf (6, 4)
+wants to move!
+[True, False, False, True]
+N
+looking at elf (4, 6)
+wants to move!
+[False, True, True, False]
+E
+looking at elf (7, 5)
+wants to move!
+[False, True, True, False]
+E
+looking at elf (3, 8)
+wants to move!
+[True, True, True, False]
+E
+[0, 2, 3, 1]
+{(11, 4): False, (7, 10): False, (11, 2): False, (7, 0): False, (1, 5): False, (2, 2): False, (11, 6): False, (10, 9): False, (4, 10): False, (4, 2): False, (6, 8): False, (3, 4): False, (2, 7): False, (10, 3): False, (10, 7): False, (8, 2): False, (10, 6): False, (6, 6): False, (6, 3): False, (5, 6): False, (8, 5): False, (4, 8): False}
+.......#......
+..............
+..#.#...#..#..
+......#...#...
+...#.......#..
+.#......#.....
+.....##...##..
+..#.......#...
+....#.#.......
+..........#...
+....#..#......
+..............
+looking at elf (11, 4)
+wants to move!
+[False, True, True, False]
+S
+looking at elf (7, 10)
+looking at elf (11, 2)
+wants to move!
+[True, True, False, False]
+N
+looking at elf (7, 0)
+looking at elf (1, 5)
+looking at elf (2, 2)
+looking at elf (11, 6)
+wants to move!
+[True, True, False, False]
+N
+looking at elf (10, 9)
+looking at elf (4, 10)
+looking at elf (4, 2)
+looking at elf (6, 8)
+looking at elf (3, 4)
+looking at elf (2, 7)
+looking at elf (10, 3)
+wants to move!
+[False, False, False, True]
+W
+looking at elf (10, 7)
+wants to move!
+[False, False, True, True]
+S
+looking at elf (8, 2)
+looking at elf (10, 6)
+wants to move!
+[True, False, False, True]
+N
+looking at elf (6, 6)
+wants to move!
+[True, True, True, False]
+N
+looking at elf (6, 3)
+looking at elf (5, 6)
+wants to move!
+[True, False, True, True]
+N
+looking at elf (8, 5)
+looking at elf (4, 8)
+[2, 3, 1, 0]
+{(11, 4): False, (7, 10): False, (7, 0): False, (1, 5): False, (2, 2): False, (11, 6): False, (10, 9): False, (4, 10): False, (4, 2): False, (6, 8): False, (3, 4): False, (2, 7): False, (8, 2): False, (6, 3): False, (8, 5): False, (4, 8): False, (11, 1): False, (9, 3): False, (10, 8): False, (10, 5): False, (6, 5): False, (5, 5): False}
+.......#......
+...........#..
+..#.#...#.....
+......#..#....
+...#.......#..
+.#...##.#.#...
+...........#..
+..#...........
+....#.#...#...
+..........#...
+....#..#......
+..............
+looking at elf (11, 4)
+wants to move!
+[True, True, False, False]
+E
+looking at elf (7, 10)
+looking at elf (7, 0)
+looking at elf (1, 5)
+looking at elf (2, 2)
+looking at elf (11, 6)
+wants to move!
+[False, True, True, False]
+S
+looking at elf (10, 9)
+wants to move!
+[False, True, True, True]
+S
+looking at elf (4, 10)
+looking at elf (4, 2)
+looking at elf (6, 8)
+looking at elf (3, 4)
+looking at elf (2, 7)
+looking at elf (8, 2)
+wants to move!
+[True, False, False, True]
+W
+looking at elf (6, 3)
+looking at elf (8, 5)
+looking at elf (4, 8)
+looking at elf (11, 1)
+looking at elf (9, 3)
+wants to move!
+[False, True, True, False]
+S
+looking at elf (10, 8)
+wants to move!
+[True, True, False, True]
+W
+looking at elf (10, 5)
+wants to move!
+[False, False, False, True]
+W
+looking at elf (6, 5)
+wants to move!
+[True, True, True, False]
+S
+looking at elf (5, 5)
+wants to move!
+[True, False, True, True]
+S
+[3, 1, 0, 2]
+{(7, 10): False, (7, 0): False, (1, 5): False, (2, 2): False, (4, 10): False, (4, 2): False, (6, 8): False, (3, 4): False, (2, 7): False, (6, 3): False, (8, 5): False, (4, 8): False, (11, 1): False, (12, 4): False, (11, 7): False, (10, 10): False, (7, 2): False, (9, 4): False, (9, 8): False, (9, 5): False, (6, 6): False, (5, 6): False}
+.......#......
+...........#..
+..#.#..#......
+......#.......
+...#.....#..#.
+.#......##....
+.....##.......
+..#........#..
+....#.#..#....
+..............
+....#..#..#...
+..............
+110
+None

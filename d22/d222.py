@@ -56,13 +56,14 @@ def move(p,d): #pos,dir
     else:
         npos,d2 = wraparound(npos,d)
         if m[npos] == False:
+            print("PRE WRAP (pos, dir)", p,d)
+            print("POST WRAP (pos,dir)", npos,d2)
             return npos,d2
         if m[npos] == True: #dont move if wall
             return p,d
 
     
 def wraparound(position,direction):
-    #print("WRAPPING",position)
     xpos,ypos = position
     "hardcoded edges :)"
     if position in B1 and direction == (0,1):
